@@ -4,26 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matt's Javascript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+#js {border: 5px solid #30be0c; margin-right: 305px}
+body {max-width: 1024px;}
+#welcome {text-align: center; color: rgb(6, 83, 30);font-size: 35px; margin-top: 80px}
+#thisis {text-align: center; color: rgb(6, 83, 30);font-size: 30px; margin-top: 80px}
+#webpage {text-align: center;font-size: 25px; margin-top: 80px}
+    </style>
 <body>
-    <h1>Welcome to Matt's Webpage</h1>
-    <h2>This is the Javascript page!</h2>
-<table>
+    <img src="myBanner2.jpg" height="180" width="1024">
+    <table>
     <tr>
-        <img src="csc1banner.jpg">
-        <table>
-        <tr>
-            <td>
-                <a target="_blank" href="index.html">
-                <img src="home.png">
-                </a>
-            </td>
-            <td>  <a target="_blank" href="about.html">
-                <img src="aboutme.png">
-                </a>
+        <td>
+            <a target="_blank" href="index.html">
+            <img id = "js" src="home.png">
+            </a>
         </td>
+        <td>
+            <a target="_blank" href="Javascripts.html">
+            <img id ="js" src="javascripts.png">
+            </a>
+        </td>
+        <td>  
+            <a target="_blank" href="about.html">
+            <img id = "js" src="aboutme.png">
+            </a>
+    </td>
     </tr>
 </table>
-<p>This web page is where my Javascript programs will be linked</p>
+<h1 id = "welcome"><strong>Welcome to Matt's Webpage</strong></h1>
+<h2 id = "thisis">This is the Javascript page!</h2>
+<p id = "webpage">This web page is where my Javascript programs will be linked</p>
 </body>
 </html>

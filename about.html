@@ -5,24 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Matt</title>
 </head>
-<body>
-    <h1>Welcome to Matt's Webpage</h1>
-    <h2>This is the about me page!</h2>
-<img src="csc1banner.jpg">
+<style>
+#js {border: 5px solid #30be0c; margin-right:305px; margin-bottom: 50px}
+#matt {float: left}
+#brother {float:right}
+#myname {margin-right: 50px; margin-left: 10px; margin-bottom: 100px; text-align: center; font-size: 25px; color: rgb(30, 143, 15);font-size: 30px}
+#aboutme {margin-top: 40px; text-align: center; color: rgb(6, 83, 30); font-size: 35px}
+#how {text-align: center; color: rgb(6, 83, 30); font-size: 30px;}
+#kayak {float: right; margin-right: 100px; margin-left: 80px}
+#dog {float: right; margin-right: 10px; margin-left: 40px}
+#golf {float: right; margin-right: 50px;}
+#list {font-size: 20px; margin-left:10px; color: rgb(30, 143, 15)}
+#body {max-width: 1024px; background-image: url("myBackground.jpg")}
+</style>
+<body id = "body">
+    <img src="myBanner2.jpg" height="180" width="1024">
     <table>
     <tr>
         <td>
             <a target="_blank" href="index.html">
-            <img src="home.png">
+            <img id = "js" src="home.png">
             </a>
         </td>
         <td>
             <a target="_blank" href="Javascripts.html">
-            <img src="js.png">
+            <img id ="js" src="javascripts.png">
             </a>
         </td>
+        <td>  
+            <a target="_blank" href="about.html">
+            <img id = "js" src="aboutme.png">
+            </a>
+    </td>
     </tr>
 </table>
-<p> This web page is all about me! </p>
+<h1 id = "aboutme"><strong>About me</strong></h2>
+<img id ="matt" src="matt.jpg" width="200" height ="185">
+<img id ="brother" src="brother.jpg" width="200" height="185"><br>
+<p id ="myname"> <strong>My name is Matthew Colando. I am a <br> freshman at URI majoring in engineering.<br> I am from Lincoln, RI, where <br> I live with my parents and my brother<br> who is a junior in high school, and also <br>my golden doodle, Max. </strong> </p>
+<h3 id="how" > <strong>How I like to spend my free time</strong>
+<h4>
+    <ul id = "list"> 
+    <li> Hanging out with friends/family</li> 
+    <li> Kayaking  </li> <img id ="kayak" src="outside.jpg" width ="150"; height = "200px"> <img id ="dog" src="dog.jpg"width ="150" height = "200"> <img id = "golf" src="golf.jpg" width ="150" height = "200">
+    <li> Running </li> 
+    <li>Walking my dog</li> 
+    <li>Golfing</li> 
+    <li>Watching movies</li> 
+    <li>Working out</li>
+    <li>Listening to music </li>
+</ul>
+</h4>
+<a target = "_blank" href = "https://www.instagram.com/mattcolando/">
+<img src ="insta.png" width = "50">
+</a>
+<a target = "_blank" href = "https://t.snapchat.com/M3vZNSIT">
+<img src = "snap.png" width = "60">
+</a>
 </body>
 </html>
